@@ -21,9 +21,7 @@ function timeCalc() {
 }
 
 function updateTimePlay() {
-
   if (localStorage.getItem(SAVED_TIME)) {
     player.setCurrentTime(localStorage.getItem(SAVED_TIME));
   }
 }
-
